@@ -17,24 +17,6 @@
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --bg: #121212;
-    --text: #e6e6e6;
-    --meta: #9a9a9a;
-    --line: #2e2e2e;
-    --darkred: #e05555;
-    --strong: #ffffff;
-    --body-2: #d6d6d6;
-    --body-3: #c4c4c4;
-    --underline: #4a4a4a;
-    --faint: #777777;
-    --invert-bg: #ffffff;
-    --invert-fg: #000000;
-  }
-}
-
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
